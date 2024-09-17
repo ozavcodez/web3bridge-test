@@ -10,7 +10,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: ALCHEMY_MAINNET_API_KEY_URL,
+        url: ALCHEMY_MAINNET_API_KEY_URL as string,
       }
     }
   },
